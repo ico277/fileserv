@@ -1,0 +1,8 @@
+[package]
+name = "fileserver-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.30"
+rocket = { version = "0.5.1", features = ["json"] }
